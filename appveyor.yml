@@ -1,6 +1,6 @@
 environment:
   CURL_VERSION: 7.39.0
-  qt:
+  qt: msvc2015
 
 install:
   - git submodule update --init --recursive
