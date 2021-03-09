@@ -21,6 +21,10 @@ install:
   - set QTDIR64=C:\Qt\5.7.0\mingw53_32\lib\cmake\Qt5Widgets
   - set vcvarsall=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat
   - call "%vcvarsall%" x86
+  - ls "C:\Program Files (x86)"
+  - ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0"
+  - ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC"
+  - ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC"
   - move "C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\d3d11on12*" "C:\Program Files (x86)\Windows Kits\8.1\Include\um"
   - move "C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\d3d12*" "C:\Program Files (x86)\Windows Kits\8.1\Include\um"
   - move "C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\dxgi*" "C:\Program Files (x86)\Windows Kits\8.1\Include\shared"
